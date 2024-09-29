@@ -1,34 +1,10 @@
-import './css/App.css'
-import Preload from './composants/Preload'
-import React, {  useEffect, useState} from 'react'
+import './App.css';
 
-function App(){
-
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-
-    setTimeout(() => {
-
-      setLoading(false)
-    }, 3000);
-
-  }, [])
-
+function App() {
   return (
     <div className="App">
       
-      { loading ? (<Preload />) : 
-      
-      (
-
-        <div>
-
-          <h1>Jeffren Mokamo</h1>
-          
-        </div>
-
-      )}
+      <h1>Jeffren</h1>
 
     </div>
   );
