@@ -1,1 +1,27 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
 
+:root{
+  --coleurPrimaire : #25d366;
+  --White: #fff;
+  --black: #000;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.preload{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--White);
+}
